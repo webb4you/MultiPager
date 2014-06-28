@@ -26,7 +26,7 @@ Installation
 Add the following to your composer.json file
 
 	"require": {
-		"webb4you/multi-pager": "dev-master"
+		"W4Y/multi-pager": "1.0.*"
 	}
 
 Usage
