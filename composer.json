@@ -1,0 +1,19 @@
+{
+    "name": "webb4you/multi-pager",
+    "authors": [
+        {
+            "name": "Ilan Rivers",
+            "email": "ilan.rivers@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev":{
+        "phpunit/phpunit": "4.1.*"
+    },
+    "autoload": {
+        "psr-0" : {
+			"W4Y\\MultiPager" : "src"
+		}
+    }
+}
