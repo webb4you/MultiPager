@@ -26,7 +26,7 @@ Installation
 Add the following to your composer.json file
 
 	"require": {
-		"webb4you/multi-pager": "dev-master"
+		"webb4you/multi-pager": "1.0.*"
 	}
 
 Usage
@@ -74,6 +74,6 @@ The count must simply return the total number of results found.
 Example
 -----
 
-For quick example, install MultiPager and point your browser to the example directory to see MultiPager in action using
-a MockData Source.
+For quick example, install MultiPager and browse to the example directory to see how to implement and use MultiPager
+with a MockData Source.
 
