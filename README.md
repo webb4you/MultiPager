@@ -39,7 +39,7 @@ Import MultiPager
 ```php
 use \W4Y\MultiPager\Pager;
 
-// Create Data Sources
+...
 
 $pager = new Pager();
 
@@ -62,7 +62,7 @@ $pager->setLimit(10);
 
 // Finally fetch the results for a given page.
 $page = 3;
-$results = $pager->fetch(3);
+$results = $pager->fetch($page);
 ```
 
 #### Data Sources
