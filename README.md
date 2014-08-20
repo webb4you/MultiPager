@@ -36,34 +36,34 @@ Use composer to download required dependencies.
 
 Import MultiPager
 
-```php
-use \W4Y\MultiPager\Pager;
-
-...
-
-$pager = new Pager();
-
-// The query parameter is not required, this is a shared variable we use in
-// our data sources to search for the required results.
-$options = ['query' => 'PHP Frameworks'];
-
-// Get your Data Source objects.
-$mysqlResults = new MysqlDataSource($options);
-$restApiResults = new RestApiDataSource($options);
-$luceneResults = new LuceneDataSource($options);
-
-// Set the data sources
-$pager->setDataSource($mysqlResults);
-$pager->setDataSource($restApiResults);
-$pager->setDataSource($luceneResults);
-
-// Set the max results per page
-$pager->setLimit(10);
-
-// Finally fetch the results for a given page.
-$page = 3;
-$results = $pager->fetch($page);
-```
+	```php
+	use \W4Y\MultiPager\Pager;
+	
+	...
+	
+	$pager = new Pager();
+	
+	// The query parameter is not required, this is a shared variable we use in
+	// our data sources to search for the required results.
+	$options = ['query' => 'PHP Frameworks'];
+	
+	// Get your Data Source objects.
+	$mysqlResults = new MysqlDataSource($options);
+	$restApiResults = new RestApiDataSource($options);
+	$luceneResults = new LuceneDataSource($options);
+	
+	// Set the data sources
+	$pager->setDataSource($mysqlResults);
+	$pager->setDataSource($restApiResults);
+	$pager->setDataSource($luceneResults);
+	
+	// Set the max results per page
+	$pager->setLimit(10);
+	
+	// Finally fetch the results for a given page.
+	$page = 3;
+	$results = $pager->fetch($page);
+	```
 
 #### Data Sources
 
