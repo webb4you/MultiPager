@@ -1,5 +1,6 @@
 MultiPager
 ===========
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/webb4you/MultiPager/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/webb4you/MultiPager/?branch=master)
 
 MultiPager is a simple class that can paginate results from multiple or different sources.
 Imagine you have to query a database for results and you also fetch results from a REST API, paginating through
